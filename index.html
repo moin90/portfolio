@@ -5,10 +5,242 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="public/styles/style.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"                   crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/public/favicon.ico">
+    <title>Moin Gani</title>
 </head>
 <body>
-    <h1>Neat</h1>
+    <header>
+        <nav>
+            <div>
+                <p class="hamburger"><a href="#"><i class="fas fa-bars"></i></a></p>
+            </div>
+            <section class="menu">
+                <ul>
+                    <li class="exit-responsive"><a href="#"><i class="fas fa-times"></i></a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#aboutMe">About</a></li>
+                    <li><a href="#skills">Toolbox</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contactInfo">Contact</a></li>
+                </ul>
+            </section>
+        </nav>
+        
+        <div class="wrapper">
+            <section class="headerInfo">
+                <h1>Hello, <br><span class="name">I'm Moin Gani</span></h1>
+                <h2 class="typed"></h2>
+                <a href="#contactInfo"><button class="btn hvr-shutter-out-horizontal">Contact Me</button></a>
+                <a href="#aboutMe" class="hvr-icon-down animated bounce infinite"><i class="fas fa-angle-double-down hvr-icon"></i></a>
+            </section>
+        </div>
+    </header>
+    
+    <div class="wrapper" data-aos="fade-right" data-aos-delay="200" id="aboutMe">
+        <section class="aboutMe">
+            <section class="headshot">
+                <figure id="headshotCard">
+                    <img src="/src/assets/moin.jpg" alt="A portrait of myself sitting in a red chair">
+                </figure>
+            </section>
+
+        <section class="aboutMeContent">
+            <h2>About Me</h2>
+                <p>Hi there, I'm Moin Gani and I am a web developer based out of Toronto. After graduating with an Accounting degree and working in the financial services industry, I gained valuable life experience and was ready to take the next step into a world of creative freedom and lifelong learning. I quickly fell in love with web development and have since been passionate about providing the best user experience possible with a conscious eye for accessibility. When I'm not coding, I enjoy travelling and experiencing new cultures, anxiously following my favourite Toronto sports teams, and goofing around with my 4-year old nephew.</p>
+                <a class="btn hvr-shutter-out-horizontal" href="https://drive.google.com/file/d/14en85iMaCbPZqh15JT0femaxqCMiXJaf/view?usp=sharing">Download Resume</a>
+        </section>
+    </div>
+
+    <section class="skills" id="skills" data-aos="fade-right" data-aos-delay="200">
+        <h2>Toolbox</h2>
+        <ul class="skillsContent">
+            <div id="card1">
+                <div class="front">
+                    <li><i class="devicon-html5-plain"></i></li>
+                </div>
+                <div class="back">
+                    <span class="cardInfo">HTML5</span>
+                </div>
+            </div>
+
+            <div id="card2">
+                <div class="front">
+                    <li><i class="devicon-css3-plain"></i></li>
+                </div>
+                <div class="back">
+                    <span class="cardInfo">CSS3</span>
+                </div>
+            </div>
+            
+            <div id="card3">
+                <div class="front">
+                    <li><i class="devicon-javascript-plain"></i></li>
+                </div>
+                <div class="back">
+                    <span class="cardInfo">JavaScript</span>
+                </div>
+            </div>
+
+            <div id="card4">
+                <div class="front">
+                    <li><i class="devicon-jquery-plain"></i></li>
+                </div>
+                <div class="back">
+                    <span class="cardInfo">jQuery</span>
+                </div>
+            </div>
+
+            <div id="card5">
+                <div class="front">
+                     <li><i class="devicon-react-original"></i></li>
+                </div>
+                <div class="back">
+                    <span class="cardInfo">React</span>
+                </div>
+            </div>
+
+            <div id="card6">
+                <div class="front">
+                    <li><i class="devicon-gulp-plain"></i></li>
+                </div>
+                <div class="back">
+                    <span class="cardInfo">Gulp</span>
+                </div>
+            </div>
+
+            <div id="card7">
+                <div class="front">
+                    <li><i class="devicon-github-plain"></i></li>
+                </div>
+                <div class="back">
+                    <span class="cardInfo">GitHub</span>
+                </div>
+            </div>
+
+            <div id="card8">
+                <div class="front">
+                    <li><i class="devicon-git-plain"></i></li>
+                </div>
+                <div class="back">
+                    <span class="cardInfo">Git</span>
+                </div>
+            </div>
+
+            <div id="card9">
+                <div class="front">
+                    <li><i class="devicon-sass-original"></i></li>
+                </div>
+                <div class="back">
+                    <span class="cardInfo">Sass</span>
+                </div>
+            </div>
+        </ul>
+    </section>
+
+    <div class="wrapper">
+        <section class="project" id="project">
+            <h2>Projects</h2>
+            <article class="projectItem" data-aos="zoom-in">
+                <section class="item">
+                    <h3>GetGo</h3>
+                    <section class="itemSkills">
+                        <span>API</span>
+                        <span>jQuery</span>
+                        <span>JavaScript</span>
+                        <span>Sass</span>
+                    </section>
+                    <p>A travel app that gives you a snapshot of your favourite travel destination - includes points of interest, currency converter, weather, and top tours. Co-created with Susie Kim.</p>
+                    <section class="projectLinks">
+                        <span class="hvr-underline-from-left"><a href="https://susiekims.github.io/susie-moin_project4/" target="_blank">Live</a></span>
+                        <span class="hvr-underline-from-left"><a href="https://github.com/KenzoAndCo/susie-moin_project4" target="_blank">GitHub</a></span>
+                    </section>
+                </section>
+                <figure class="itemMockup hvr-grow">
+                    <img src="./src/assets/GetGoMockup.png" alt="A mockup of a travel app on a MacBook and iPhone">
+                </figure>
+            </article>
+            <article class="projectItem" data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
+                <figure class="itemMockup hvr-grow">
+                    <img src="./src/assets/StumbleGrumbleMockup.png" alt="A mockup of a restaurant app on a MacBook and iPhone">
+                </figure>
+                <section class="item">
+                    <h3>StumbleGrumble</h3>
+                    <section class="itemSkills">
+                        <span>React</span>
+                        <span>API</span>
+                        <span>JavaScript</span>
+                        <span>Sass</span>
+                    </section>
+                    <p>A restaurant locator app catered for late-night eats that shows you which restaurants are currently open near your location. Co-created with Claire Ristow and Jesse Huynh.</p>
+                    <section class="projectLinks">
+                        <span class="hvr-underline-from-left"><a href="https://stumblegrumble-a293b.firebaseapp.com/" target="_blank">Live</a></span>
+                        <span class="hvr-underline-from-left"><a href="https://github.com/StumbleGrumble/claire_jesse_moin_stumble_grumble_project6" target="_blank">GitHub</a></span>
+                    </section>
+                </section>
+            </article>
+            <article class="projectItem projectItemLast" data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
+                <section class="item">
+                    <h3>GetDo Travel Planner</h3>
+                    <section class="itemSkills">
+                        <span>React</span>
+                        <span>Firebase</span>
+                        <span>CSS</span>
+                        <span>Responsive</span>
+                    </section>
+                    <p>GetDo was designed as a complimentary app to GetGo. It is a travel-planning app that helps remind you of what you need to pack, buy, and list the places you'd like to visit.</p>
+                    <section class="projectLinks">
+                        <span class="hvr-underline-from-left"><a href="https://project-5-getdo.firebaseapp.com/" target="_blank">Live</a></span>
+                        <span class="hvr-underline-from-left"><a href="https://github.com/moin90/moin_gani_project5" target="_blank">GitHub</a></span>
+                    </section>
+                </section>
+                <figure class="itemMockup hvr-grow">
+                    <img src="./src/assets/GetDoMockup.png" alt="A mockup of a Photography PSD template on an MacBook and iPhone">
+                </figure>
+            </article>
+        </section>
+    </div>
+
+    <div class="wrapper">
+        <section class="contactInfo" id="contactInfo">
+            <ul class="fa-ul">
+                <li><h2>Contact Me</h2></li>
+                <li><span class="fa-li"><i class="fas fa-envelope"></i></span>helloworldATmoingani.com</li>
+                <li><span class="fa-li"><i class="fas fa-map-marker-alt"></i></span>Toronto, ON, Canada</li>
+            </ul>
+        </section>
+        <section class="sendMessage">
+            <form action="http://www.focuspocus.io/magic/8c9ea64e73705aaf7b0b750f397d1b2b" method="POST">
+                <label for="">
+                </label>
+                <input type="text" class="contactInput" placeholder="Name">
+                <input type="text" class="contactInput" placeholder="Email">
+                <input type="text" class="contactMessage" placeholder="Message">
+                <input type="submit" class="btn hvr-underline-from-left" placeholder="Submit" value="CONTACT NOW">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <div class="wrapper">
+            <span>&copy;2018 Moin Gani</span>
+            <ul class="social">
+                <li><a href="https://www.facebook.com/moin.gani"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/moin.g/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/Moin_Gani"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/moin/"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='crossorigin='anonymous'></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.2.0/jquery.smooth-scroll.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="public/scripts/app.js"></script>
 </body>
 </html>
