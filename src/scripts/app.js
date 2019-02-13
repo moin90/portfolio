@@ -21,7 +21,7 @@ $(document).ready(function () {
 });
 
 var typed = new Typed('.typed', {
-    strings: ["Front-end developer.", "Diehard Leafs fan.", "Travel junkie."],
+    strings: ["Front-end developer.", "Diehard Toronto sports fan.", "Travel junkie."],
     typeSpeed: 30,
     backSpeed: 30,
     loop: true,

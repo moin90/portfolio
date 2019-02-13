@@ -52,7 +52,7 @@
         <section class="aboutMeContent">
             <h2>About Me</h2>
                 <p>Hi there, I'm Moin Gani and I am a web developer based out of Toronto. After graduating with an Accounting degree and working in the financial services industry, I gained valuable life experience and was ready to take the next step into a world of creative freedom and lifelong learning. I quickly fell in love with web development and have since been passionate about providing the best user experience possible with a conscious eye for accessibility. When I'm not coding, I enjoy travelling and experiencing new cultures, anxiously following my favourite Toronto sports teams, and goofing around with my 4-year old nephew.</p>
-                <a class="btn hvr-shutter-out-horizontal" href="https://drive.google.com/file/d/14en85iMaCbPZqh15JT0femaxqCMiXJaf/view?usp=sharing">Download Resume</a>
+                <a class="btn hvr-shutter-out-horizontal" href="https://drive.google.com/file/d/14en85iMaCbPZqh15JT0femaxqCMiXJaf/view?usp=sharing" target="_blank">Download Resume</a>
         </section>
     </div>
 
@@ -156,7 +156,7 @@
                     </section>
                     <p>A travel app that gives you a snapshot of your favourite travel destination - includes points of interest, currency converter, weather, and top tours. Co-created with Susie Kim.</p>
                     <section class="projectLinks">
-                        <span class="hvr-underline-from-left"><a href="https://susiekims.github.io/susie-moin_project4/" target="_blank">Live</a></span>
+                        <span class="hvr-underline-from-left"><a href="http://susiekim.co/getgo/" target="_blank">Live</a></span>
                         <span class="hvr-underline-from-left"><a href="https://github.com/KenzoAndCo/susie-moin_project4" target="_blank">GitHub</a></span>
                     </section>
                 </section>
@@ -209,18 +209,16 @@
         <section class="contactInfo" id="contactInfo">
             <ul class="fa-ul">
                 <li><h2>Contact Me</h2></li>
-                <li><span class="fa-li"><i class="fas fa-envelope"></i></span>helloworldATmoingani.com</li>
+                <li><span class="fa-li"><i class="fas fa-envelope"></i></span>helloworld[at]moingani.com</li>
                 <li><span class="fa-li"><i class="fas fa-map-marker-alt"></i></span>Toronto, ON, Canada</li>
             </ul>
         </section>
         <section class="sendMessage">
             <form action="http://www.focuspocus.io/magic/8c9ea64e73705aaf7b0b750f397d1b2b" method="POST">
-                <label for="">
-                </label>
-                <input type="text" class="contactInput" placeholder="Name">
-                <input type="text" class="contactInput" placeholder="Email">
-                <input type="text" class="contactMessage" placeholder="Message">
-                <input type="submit" class="btn hvr-underline-from-left" placeholder="Submit" value="CONTACT NOW">
+                    <input type="text" class="contactInput" placeholder="Name" name ="Name" required>
+                    <input type="text" class="contactInput" placeholder="Email" name="Email" required>
+                    <textarea class="contactMessage" placeholder="Message" name="Message" required></textarea>
+                    <input type="submit" class="btn hvr-grow" placeholder="Submit" value="CONTACT NOW">
             </form>
         </section>
     </div>
