@@ -79,7 +79,7 @@ header {
 
 .typed{
     display: inline-block;
-    color: white;
+    color: $primary;
     margin-bottom: 15px;
 }
 
@@ -92,10 +92,10 @@ header {
     }
 
     h1 {
-        color: $secondary;
+        color: $primary;
         font-size: 5rem;
         span {
-            color: white;
+            color: $accent;
         }
     }
 
