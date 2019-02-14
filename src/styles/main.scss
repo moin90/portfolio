@@ -39,7 +39,7 @@ h2:after {
     height: 20px;
     background-image: url('/src/assets/line_90.png');
     background-repeat: no-repeat;
-    background-position: 70% center;
+    background-position: 50% center;
 }
 
 .wrapper {
@@ -106,6 +106,7 @@ header {
     
     button {
         font-weight: 500;
+        border: 1px solid $accent;
     }    
 }
 
@@ -137,8 +138,9 @@ a {
 }
 
 .btn {
-    border: 2px solid $accent;
-    background: #000;
+    background: black;
+    border: none;
+    text-transform: uppercase;
     color: $accent;
     padding: 15px;
     width: 250px;
@@ -165,6 +167,8 @@ a {
         .btn {
             margin-top: 25px;
             text-align: center;
+            border: none;
+            text-transform: uppercase;
         }
 
         h2 {
@@ -253,16 +257,21 @@ a {
     display: flex;
     flex-direction: column;
 
+    p a {
+        text-decoration: underline;
+    }
+
     .itemSkills {
         display: flex;
         margin-bottom: 10px;
-        border: 2px solid black;
+        border: 1px solid black;
 
         span {
             // border: 1px dotted black;
             padding: 10px;
             background-color: $secondary;
             color: black;
+            width: 100%;
         }
     }
 
@@ -280,7 +289,6 @@ a {
             text-align: center;
             padding: 10px;
             margin-top: 10px;
-            border: 2px solid $accent;     
 
             &:hover {
                 transition: 0.2s all ease;
@@ -332,21 +340,19 @@ a {
 
     input, textarea {
         padding: 10px;
-        margin: 15px 15px 15px 0;
-        border: none;
-        border-bottom: 2px solid $secondary;
-        width: 60%;
+        margin: 15px 0;
+        border: 2px solid $secondary;
+        width: 55%;
 
         &:focus {
-            border-bottom: 2px solid $accent;
+            border: 2px solid $accent;
             transition: 0.2s all ease;
         }
     }
 
-    input[type="submit"] {
-        border-bottom: none;
+    #submit {
+        border: none;
     }
-
 }
 
 footer {
