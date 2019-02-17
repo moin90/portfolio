@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="public/styles/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"                   crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -19,16 +19,23 @@
             <div>
                 <p class="hamburger"><a href="#"><i class="fas fa-bars"></i></a></p>
             </div>
+            <div class="wrapper">
             <section class="menu">
                 <ul>
                     <li class="exit-responsive"><a href="#"><i class="fas fa-times"></i></a></li>
-                    <li><a href="">Home</a></li>
-                    <li><a href="#aboutMe">About</a></li>
-                    <li><a href="#skills">Toolbox</a></li>
-                    <li><a href="#project">Projects</a></li>
-                    <li><a href="#contactInfo">Contact</a></li>
+                    <li class="hvr-underline-from-left"><a href="#aboutMe">About</a></li>
+                    <li class="hvr-underline-from-left"><a href="#skills">Skills</a></li>
+                    <li class="hvr-underline-from-left"><a href="#portfolio">Portfolio</a></li>
+                    <li class="hvr-underline-from-left"><a href="#contactInfo">Contact</a></li>
+                    <li class="hvr-underline-from-left"><a href="https://twitter.com/Moin_Gani" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/moin/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://github.com/moin90" target="_blank"><i class="fab fa-github"></i></a></li>
+
+                </ul>
+                <ul class="navSocial">
                 </ul>
             </section>
+            </div>
         </nav>
         
         <div class="wrapper">
@@ -36,7 +43,7 @@
                 <h1>Hello, <br><span class="name">I'm Moin Gani</span></h1>
                 <h2 class="typed"></h2>
                 <a href="#contactInfo"><button class="btn hvr-shutter-out-horizontal">Get in Touch</button></a>
-                <a href="#aboutMe" class="hvr-icon-down animated bounce infinite"><i class="fas fa-angle-double-down hvr-icon"></i></a>
+                <a href="#aboutMe" class="hvr-icon-down animated bounce slower infinite"><i class="fas fa-angle-double-down hvr-icon"></i></a>
             </section>
         </div>
     </header>
@@ -57,9 +64,9 @@
     </div>
 
     <section class="skills" id="skills" data-aos="fade-left" data-aos-delay="220" data-aos-duration="1000">
-        <h2>Toolbox</h2>
+        <h2>Skills</h2>
         <ul class="skillsContent">
-            <div id="card1">
+            <div id="html">
                 <div class="front">
                     <li><i class="devicon-html5-plain"></i></li>
                 </div>
@@ -68,7 +75,7 @@
                 </div>
             </div>
 
-            <div id="card2">
+            <div id="css">
                 <div class="front">
                     <li><i class="devicon-css3-plain"></i></li>
                 </div>
@@ -77,7 +84,7 @@
                 </div>
             </div>
             
-            <div id="card3">
+            <div id="javascript">
                 <div class="front">
                     <li><i class="devicon-javascript-plain"></i></li>
                 </div>
@@ -86,7 +93,7 @@
                 </div>
             </div>
 
-            <div id="card4">
+            <div id="jquery">
                 <div class="front">
                     <li><i class="devicon-jquery-plain"></i></li>
                 </div>
@@ -95,7 +102,7 @@
                 </div>
             </div>
 
-            <div id="card5">
+            <div id="react">
                 <div class="front">
                      <li><i class="devicon-react-original"></i></li>
                 </div>
@@ -104,7 +111,7 @@
                 </div>
             </div>
 
-            <div id="card6">
+            <div id="gulp">
                 <div class="front">
                     <li><i class="devicon-gulp-plain"></i></li>
                 </div>
@@ -113,7 +120,7 @@
                 </div>
             </div>
 
-            <div id="card7">
+            <div id="github">
                 <div class="front">
                     <li><i class="devicon-github-plain"></i></li>
                 </div>
@@ -122,7 +129,7 @@
                 </div>
             </div>
 
-            <div id="card8">
+            <div id="git">
                 <div class="front">
                     <li><i class="devicon-git-plain"></i></li>
                 </div>
@@ -131,7 +138,7 @@
                 </div>
             </div>
 
-            <div id="card9">
+            <div id="sass">
                 <div class="front">
                     <li><i class="devicon-sass-original"></i></li>
                 </div>
@@ -143,9 +150,9 @@
     </section>
 
     <div class="wrapper">
-        <section class="project" id="project">
-            <h2>Projects</h2>
-            <article class="projectItem" data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+        <section class="portfolio" id="portfolio">
+            <h2>Portfolio</h2>
+            <article class="portfolioItem" data-aos="slide-right" data-aos-duration="800" data-aos-anchor-placement="center-bottom">
                 <section class="item">
                     <h3>GetGo</h3>
                     <section class="itemSkills">
@@ -154,8 +161,8 @@
                         <span>JavaScript</span>
                         <span>Sass</span>
                     </section>
-                    <p>A travel app that gives you a snapshot of your favourite travel destination - includes points of interest, currency converter, weather, and top tours. Built collaboratively with <a href="http://susiekim.co/" target="_blank">Susie Kim</a></p>
-                    <section class="projectLinks">
+                    <p>Thinking about your next getaway? GetGo is a travel app that takes user input and provides a snapshot of important information to any traveller - it includes points of interest, currency conversion, weather, and top tours. Built collaboratively with fellow globetrotter <a href="http://susiekim.co/" target="_blank">Susie Kim</a>.</p>
+                    <section class="portfolioLinks">
                         <a href="http://susiekim.co/getgo/" target="_blank">Live</a>
                         <a href="https://github.com/KenzoAndCo/susie-moin_project4" target="_blank">GitHub</a>
                     </section>
@@ -164,11 +171,11 @@
                     <img src="./src/assets/GetGoMockup.png" alt="A mockup of a travel app on a MacBook and iPhone">
                 </figure>
             </article>
-            <article class="projectItem" data-aos="fade-left" data-aos-delay="150" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+            <article class="portfolioItem" data-aos="slide-left" data-aos-duration="800" data-aos-anchor-placement="center-bottom">
                 <figure class="itemMockup">
                     <img src="./src/assets/StumbleGrumbleMockup.png" alt="A mockup of a restaurant app on a MacBook and iPhone">
                 </figure>
-                <section class="item">
+                <section class="item" id="stumblegrumble">
                     <h3>StumbleGrumble</h3>
                     <section class="itemSkills">
                         <span>React</span>
@@ -176,24 +183,24 @@
                         <span>JavaScript</span>
                         <span>Sass</span>
                     </section>
-                    <p>A restaurant locator app catered for late-night eats that shows you which restaurants are currently open near your location. Built collaboratively with <a href="http://claireristow.com" target="_blank">Claire Ristow</a> and <a href="http://jesseh.codes" target="_blank">Jesse Huynh</a>.</p>
-                    <section class="projectLinks">
+                    <p>Looking for a late-night bite? StumbleGrumble filters through Google APIs to discover the restaurants that are currently open near your location. Built collaboratively with <a href="http://claireristow.com" target="_blank">Claire Ristow</a> and <a href="http://jesseh.codes" target="_blank">Jesse Huynh</a>.</p>
+                    <section class="portfolioLinks">
                         <a href="https://stumblegrumble-a293b.firebaseapp.com/" target="_blank" class="hvr-outline-in">Live</a>
                         <a href="https://github.com/StumbleGrumble/claire_jesse_moin_stumble_grumble_project6" target="_blank">GitHub</a>
                     </section>
                 </section>
             </article>
-            <article class="projectItem projectItemLast" data-aos="fade-right" data-aos-delay="150" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+            <article class="portfolioItem portfolioItemLast" data-aos="slide-right" data-aos-duration="800" data-aos-anchor-placement="center-bottom">
                 <section class="item">
                     <h3>GetDo Travel Planner</h3>
                     <section class="itemSkills">
                         <span>React</span>
                         <span>Firebase</span>
-                        <span>CSS</span>
+                        <span>CSS3</span>
                         <span>Responsive</span>
                     </section>
-                    <p>GetDo is a companion app to GetGo. It is a travel-planning app that helps remind you of what you need to pack, buy, and list the places you'd like to visit.</p>
-                    <section class="projectLinks">
+                    <p>Ready to plan your trip? GetDo was built as a companion app to GetGo. It is a travel-planning app that helps remind you of what you need to pack, buy, and list the places you'd like to visit.</p>
+                    <section class="portfolioLinks">
                         <a href="https://project-5-getdo.firebaseapp.com/" target="_blank">Live</a>
                         <a href="https://github.com/moin90/moin_gani_project5" target="_blank">GitHub</a>
                     </section>
@@ -205,31 +212,35 @@
         </section>
     </div>
 
+    
     <div class="wrapper">
         <section class="contactInfo" id="contactInfo" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-offset="0">
-            <ul class="fa-ul">
-                <li><h2>Get In Touch</h2></li>
-                <li><span class="fa-li"><i class="fas fa-envelope"></i></span>helloworld [at] moingani [dot] com</li>
-                <li><span class="fa-li"><i class="fas fa-map-marker-alt"></i></span>Toronto, ON, Canada</li>
+            <h2>Get In Touch</h2>
+            <ul class="contactDetails">
+                <li><span class="fa-li"><i class="fas fa-envelope"></i></span><h3>helloworld [at] moingani [dot] com</h3></li>
             </ul>
         </section>
         <section class="sendMessage" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-offset="0">
             <form action="http://www.focuspocus.io/magic/8c9ea64e73705aaf7b0b750f397d1b2b" method="POST">
-                    <input type="text" class="contactInput" placeholder="Name" name ="Name" required>
-                    <input type="text" class="contactInput" placeholder="Email" name="Email" required>
-                    <textarea class="contactMessage" placeholder="Message" name="Message" required></textarea>
-                    <input type="submit" class="btn hvr-grow" placeholder="Submit" value="CONTACT NOW" id="submit">
+                <label for="name">Name</label>
+                <input type="text" id="name" class="contactInput" placeholder="Your name" name="Name" required>
+                <label for="email">Email</label>
+                <input type="text" id="email" class="contactInput" placeholder="webdev@youarehired.com" name="Email" required>
+                <label for="message">Message</label>
+                <textarea class="contactMessage message" id="message" placeholder="Don't be shy!" name="Message" required></textarea>
+                <input type="submit" class="btn hvr-grow" id="submit" placeholder="Submit" value="CONTACT NOW" id="submit">
             </form>
         </section>
     </div>
 
     <footer>
         <div class="wrapper">
-            <span>&copy;2018 Moin Gani</span>
             <ul class="social">
-                <li><a href="https://twitter.com/Moin_Gani"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/moin/"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://twitter.com/Moin_Gani" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/moin/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://github.com/moin90" target="_blank"><i class="fab fa-github"></i></a></li>
             </ul>
+            <span>&copy; 2018 Moin Gani</span>
         </div>
     </footer>
 

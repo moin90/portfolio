@@ -4,10 +4,10 @@ import AOS from 'aos';
 $(document).ready(function () {
 
     $('a').smoothScroll({
-        speed: 800
+        speed: 600
     });
 
-    $("#card1, #card2, #card3, #card4, #card5, #card6, #card7, #card8, #card9").flip({
+    $("#html, #css, #javascript, #jquery, #react, #gulp, #github, #git, #sass").flip({
         trigger: 'hover',
     });
 
